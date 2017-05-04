@@ -4,6 +4,7 @@ import java.util.ArrayList;
 
 import android.graphics.Point;
 //找到距某点的最大值最小值的方法
+//随便写的
 class Extreme{
 	public int getmax(int[] x){
 		int temp=x[0];
