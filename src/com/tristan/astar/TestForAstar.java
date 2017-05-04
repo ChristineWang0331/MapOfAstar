@@ -22,7 +22,7 @@ public class TestForAstar extends View{
 	private Barrier barrier;
 	private ArrayList<Point> barrierPath;
 	
-	//我也加了一句注释
+	//我也加了一句注释，测试一下
 	
 	//获取屏幕的像素点密度
 	DisplayMetrics metric = new DisplayMetrics();
