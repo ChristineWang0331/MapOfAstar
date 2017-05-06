@@ -130,7 +130,7 @@ public class FiveMapTest extends View{
 		for(int i = 167; i<=240 ; i++){
 			this.barrier.addBarrierPoint(new Point(i,120));
 		}
-		//504教室
+		//504办公室
 		for(int i = 121; i<=167 ; i++){
 			this.barrier.addBarrierPoint(new Point(i,167));
 		}
@@ -143,7 +143,7 @@ public class FiveMapTest extends View{
 		for(int i = 177; i<=192 ; i++){
 			this.barrier.addBarrierPoint(new Point(167,i));
 		}
-		//
+		//506办公室
 		for(int i = 193; i<=217 ; i++){
 			this.barrier.addBarrierPoint(new Point(121,i));
 		}
@@ -153,26 +153,38 @@ public class FiveMapTest extends View{
 		for(int i = 193; i<=209 ; i++){
 			this.barrier.addBarrierPoint(new Point(167,i));
 		}
-		
 		for(int i = 215; i<=219 ; i++){
 			this.barrier.addBarrierPoint(new Point(167,i));
+		}
+		//508办公室
+		for(int i = 218; i<=241 ; i++){
+			this.barrier.addBarrierPoint(new Point(121,i));
 		}
 		for(int i = 225; i<=258 ; i++){
 			this.barrier.addBarrierPoint(new Point(167,i));
 		}
-		for(int i = 264; i<=280 ; i++){
+        for(int i = 122; i<=166 ; i++){			
+			this.barrier.addBarrierPoint(new Point(i,241));
+		}
+        //510办公室
+        for(int i = 242; i<=266 ; i++){
+			this.barrier.addBarrierPoint(new Point(121,i));
+		}
+        for(int i = 122; i<=166 ; i++){
+			this.barrier.addBarrierPoint(new Point(i,266));
+		}
+		for(int i = 264; i<=266 ; i++){
 			this.barrier.addBarrierPoint(new Point(167,i));
+		}
+		//5楼洗手间
+		for(int i = 267; i<=318 ; i++){
+			this.barrier.addBarrierPoint(new Point(121,i));
 		}
 		for(int i = 280; i<=304 ; i++){
 			this.barrier.addBarrierPoint(new Point(150,i));
 		}
 		for(int i = 304; i<=318 ; i++){
 			this.barrier.addBarrierPoint(new Point(167,i));
-		}
-		for(int i = 122; i<=166 ; i++){
-			
-			this.barrier.addBarrierPoint(new Point(i,241));
-			this.barrier.addBarrierPoint(new Point(i,266));
 		}
 		for(int i = 122; i<=149 ; i++){
 			this.barrier.addBarrierPoint(new Point(i,291));
@@ -181,9 +193,13 @@ public class FiveMapTest extends View{
 			this.barrier.addBarrierPoint(new Point(i,280));
 			this.barrier.addBarrierPoint(new Point(i,304));
 		}
+		for(int i = 267; i<=280 ; i++){
+			this.barrier.addBarrierPoint(new Point(167,i));
+		}	
 		for(int i = 103; i<=167 ; i++){
 			this.barrier.addBarrierPoint(new Point(i,319));
 		}
+		//5楼西楼梯
 		for(int i = 320; i<=344 ; i++){
 			this.barrier.addBarrierPoint(new Point(103,i));
 		}
@@ -193,6 +209,7 @@ public class FiveMapTest extends View{
 		for(int i = 345; i<=385 ; i++){
 			this.barrier.addBarrierPoint(new Point(149,i));
 		}
+		//517实验室
 		for(int i = 103; i<=152 ; i++){
 			this.barrier.addBarrierPoint(new Point(i,385));
 		}
@@ -220,21 +237,22 @@ public class FiveMapTest extends View{
 		for(int i = 369; i<=485 ; i++){
 			this.barrier.addBarrierPoint(new Point(223,i));
 		}
-		for(int i = 167; i<=368 ; i++){
+		//505实验室
+		for(int i = 121; i<=146 ; i++){
 			this.barrier.addBarrierPoint(new Point(241,i));
+		}
+		for(int i = 188; i<=240 ; i++){
+			this.barrier.addBarrierPoint(new Point(i,146));
 		}
 		for(int i = 126; i<=169 ; i++){
 			this.barrier.addBarrierPoint(new Point(187,i));
 		}
-		
-		for(int i = 227; i<=268 ; i++){
-			this.barrier.addBarrierPoint(new Point(187,i));
+		//507实验室
+		for(int i = 167; i<=217 ; i++){
+			this.barrier.addBarrierPoint(new Point(241,i));
 		}
-		for(int i = 276; i<=360 ; i++){
+		for(int i = 177; i<=219 ; i++){
 			this.barrier.addBarrierPoint(new Point(187,i));
-		}
-		for(int i = 188; i<=240 ; i++){
-			this.barrier.addBarrierPoint(new Point(i,146));
 		}
 		for(int i = 188; i<=240 ; i++){
 			this.barrier.addBarrierPoint(new Point(i,167));
@@ -242,11 +260,29 @@ public class FiveMapTest extends View{
 		for(int i = 188; i<=240 ; i++){
 			this.barrier.addBarrierPoint(new Point(i,217));
 		}
+		//509实验室
+		for(int i = 227; i<=268 ; i++){
+			this.barrier.addBarrierPoint(new Point(187,i));
+		}
+		for(int i = 218; i<=266 ; i++){
+			this.barrier.addBarrierPoint(new Point(241,i));
+		}
 		for(int i = 188; i<=240 ; i++){
 			this.barrier.addBarrierPoint(new Point(i,266));
 		}
+		//511实验室
+		for(int i = 276; i<=360 ; i++){
+			this.barrier.addBarrierPoint(new Point(187,i));
+		}
+		for(int i = 267; i<=319 ; i++){
+			this.barrier.addBarrierPoint(new Point(241,i));
+		}
 		for(int i = 188; i<=240 ; i++){
 			this.barrier.addBarrierPoint(new Point(i,319));
+		}		
+		//513实验室
+		for(int i = 320; i<=368 ; i++){
+			this.barrier.addBarrierPoint(new Point(241,i));
 		}
 		for(int i = 187; i<=240 ; i++){
 			this.barrier.addBarrierPoint(new Point(i,368));
