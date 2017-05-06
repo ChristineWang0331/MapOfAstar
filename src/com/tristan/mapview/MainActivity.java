@@ -49,7 +49,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
-//测试一下github是否关联成功
+//测试一下github是否关联成功，再测试一下
 public class MainActivity extends Activity {
 	
 	private ToggleButton btn1;					//测试按钮
