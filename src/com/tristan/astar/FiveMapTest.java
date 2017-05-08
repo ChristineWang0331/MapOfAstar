@@ -83,6 +83,8 @@ public class FiveMapTest extends View{
 	private void initialBarrier(){
 		this.barrier = new Barrier();
 		//5б╔б╔лщ
+		//тыйтр╩об
+
 		for(int i = 140; i<=166 ; i++){
 			this.barrier.addBarrierPoint(new Point(i,4));
 		}
