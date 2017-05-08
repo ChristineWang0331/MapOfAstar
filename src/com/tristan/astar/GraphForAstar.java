@@ -6,7 +6,7 @@ import java.util.Set;
 
 import android.graphics.Point;
 
-//测试gitkraken用的注释
+//测试gitkraken用的注释,再测试一下
 //注意，在我这个程序里面,map_column对应的是x轴,map_row对应的是y轴
 public class GraphForAstar {
 	private int map_row, map_column;   	//地图大小
