@@ -82,7 +82,7 @@ public class FiveMapTest extends View{
 	//初始化barrier类
 	private void initialBarrier(){
 		this.barrier = new Barrier();
-		//5楼东楼梯
+		//5楼楼梯
 		for(int i = 140; i<=166 ; i++){
 			this.barrier.addBarrierPoint(new Point(i,4));
 		}
