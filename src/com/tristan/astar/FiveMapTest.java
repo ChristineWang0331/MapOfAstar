@@ -87,6 +87,7 @@ public class FiveMapTest extends View{
 			this.barrier.addBarrierPoint(new Point(i,4));
 		}
 		//5楼咖啡室及天台
+		//测试用的注释
 		for(int i = 5; i<=72 ; i++){
 			this.barrier.addBarrierPoint(new Point(140,i));
 		}
